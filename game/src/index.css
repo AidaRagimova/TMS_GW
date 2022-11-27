@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300;400;700&family=Dosis:wght@300;400;500&family=Lato:wght@300;400;700&family=Ms+Madi&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Dosis', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  background: #1b1523;
+  color: #fff;
+}
+
+

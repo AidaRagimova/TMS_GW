@@ -1,0 +1,55 @@
+.card {
+    position: relative;
+}
+
+.card img {
+    max-width:100%;
+    height: auto;
+    display: block;
+    border: 2px solid #fff;
+    border-radius: 6px;
+}
+
+@media (max-width: 970px) {
+    .card img {
+        max-width:70%;
+        height: auto;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .card img {
+        max-width:60%;
+        height: auto;
+    }
+  }
+  
+  @media (max-width: 650px) {
+    .card img {
+        max-width:70%;
+        height: auto;
+    }
+  }
+
+/*front of the card = the pic */
+.card .front {
+    transform: rotateY(90deg);
+    transition: all ease-in 0.2s;
+    position: absolute;
+}
+
+.flipped .front {
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+/*back of the card = cover */
+.card .back {
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+
+.flipped .back {
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
